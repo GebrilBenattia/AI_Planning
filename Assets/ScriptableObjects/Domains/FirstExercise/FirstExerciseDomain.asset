@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c832be21ffe49f74184ab4f72d6514a9, type: 3}
+  m_Name: FirstExerciseDomain
+  m_EditorClassIdentifier: 
+  Goal: {fileID: 11400000, guid: 187545bb2fb88b34698fd864013362cf, type: 2}
+  WorldSate:
+    Data:
+      IsEnemyDead: 0
+      HasWeapon: 0
+      IsNearWeapon: 0
+      IsNearEnemy: 0
+      IsHurt: 1
+  AvailableActions:
+  - Name: MoveToWeapon
+    Cost: 2
+    PreConditions: {fileID: 0}
+    PostConditions: {fileID: 0}
+  - Name: MoveToEnemy
+    Cost: 2
+    PreConditions: {fileID: 0}
+    PostConditions: {fileID: 0}
+  - Name: PickUpWeapon
+    Cost: 1
+    PreConditions: {fileID: 0}
+    PostConditions: {fileID: 0}
+  - Name: KillEnemy
+    Cost: 1
+    PreConditions: {fileID: 0}
+    PostConditions: {fileID: 0}
+  - Name: HealSelf
+    Cost: 1
+    PreConditions: {fileID: 11400000, guid: 7eaec0e9db1c4554697d1024c00d202b, type: 2}
+    PostConditions: {fileID: 11400000, guid: bfd3852956088f24f9e866c606f82697, type: 2}
