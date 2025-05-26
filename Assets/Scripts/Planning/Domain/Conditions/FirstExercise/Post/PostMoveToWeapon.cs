@@ -10,5 +10,11 @@ namespace Planning.Domain.Conditions.FirstExercise.Post
         {
             worldStateData.IsNearWeapon = true;
         }
+
+        public override WorldStateData Apply(WorldStateData worldStateData)
+        {
+            worldStateData.IsNearWeapon = true;
+            return worldStateData;
+        }
     }
 }

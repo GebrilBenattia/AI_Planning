@@ -8,7 +8,7 @@ namespace Planning.Domain.Conditions.FirstExercise.Pre
     {
         public override bool IsMet(WorldStateData worldStateData)
         {
-            return !worldStateData.IsNearEnemy;
+            return !worldStateData.IsNearEnemy && !worldStateData.IsHurt && worldStateData.HasWeapon;
         }
     }
 }

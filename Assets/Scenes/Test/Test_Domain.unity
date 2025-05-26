@@ -317,6 +317,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Domain: {fileID: 11400000, guid: ff3049df02798ff41b43b4be6506707a, type: 2}
+  leaves: []
+  NewWorldStateData:
+    IsEnemyDead: 0
+    HasWeapon: 0
+    IsNearWeapon: 0
+    IsNearEnemy: 0
+    IsHurt: 0
 --- !u!1 &1420063665
 GameObject:
   m_ObjectHideFlags: 0

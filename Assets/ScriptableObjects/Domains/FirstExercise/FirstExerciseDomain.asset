@@ -13,30 +13,30 @@ MonoBehaviour:
   m_Name: FirstExerciseDomain
   m_EditorClassIdentifier: 
   Goal: {fileID: 11400000, guid: 187545bb2fb88b34698fd864013362cf, type: 2}
-  WorldSate:
+  WorldState:
     Data:
       IsEnemyDead: 0
       HasWeapon: 0
       IsNearWeapon: 0
       IsNearEnemy: 0
-      IsHurt: 1
+      IsHurt: 0
   AvailableActions:
   - Name: MoveToWeapon
     Cost: 2
-    PreConditions: {fileID: 0}
-    PostConditions: {fileID: 0}
+    PreConditions: {fileID: 11400000, guid: aa1f4cc69105820469bd1e62e64a4ee7, type: 2}
+    PostConditions: {fileID: 11400000, guid: 5e94ef880dc9a334d9658a822acdb227, type: 2}
   - Name: MoveToEnemy
     Cost: 2
-    PreConditions: {fileID: 0}
-    PostConditions: {fileID: 0}
+    PreConditions: {fileID: 11400000, guid: d066953163342df4aab539ff1ceae72b, type: 2}
+    PostConditions: {fileID: 11400000, guid: 40c4a42db7360d24a848e26e5375509c, type: 2}
   - Name: PickUpWeapon
     Cost: 1
-    PreConditions: {fileID: 0}
-    PostConditions: {fileID: 0}
+    PreConditions: {fileID: 11400000, guid: 1d3608a54da66174dbe1f3e08b9b1500, type: 2}
+    PostConditions: {fileID: 11400000, guid: 4ebae355640344043a7017c8c27fdbbb, type: 2}
   - Name: KillEnemy
     Cost: 1
-    PreConditions: {fileID: 0}
-    PostConditions: {fileID: 0}
+    PreConditions: {fileID: 11400000, guid: 638420a63052e57418174e260dac3be5, type: 2}
+    PostConditions: {fileID: 11400000, guid: 0cb8460caf45d2548b981fadb8b1b54e, type: 2}
   - Name: HealSelf
     Cost: 1
     PreConditions: {fileID: 11400000, guid: 7eaec0e9db1c4554697d1024c00d202b, type: 2}

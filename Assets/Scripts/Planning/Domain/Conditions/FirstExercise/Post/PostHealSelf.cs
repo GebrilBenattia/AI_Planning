@@ -10,5 +10,11 @@ namespace Planning.Domain.Conditions.FirstExercise.Post
         {
             worldStateData.IsHurt = false;
         }
+
+        public override WorldStateData Apply(WorldStateData worldStateData)
+        {
+            worldStateData.IsHurt = false;
+            return worldStateData;
+        }
     }
 }

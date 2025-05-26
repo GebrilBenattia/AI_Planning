@@ -10,5 +10,11 @@ namespace Planning.Domain.Conditions.FirstExercise.Post
         {
             worldStateData.HasWeapon = true;
         }
+
+        public override WorldStateData Apply(WorldStateData worldStateData)
+        {
+            worldStateData.HasWeapon = true;
+            return worldStateData;
+        }
     }
 }

@@ -10,7 +10,7 @@ namespace Planning.Domain
     public class Domain : ScriptableObject
     {
         public FirstExerciseGoal Goal;
-        public WorldState WorldSate;
+        public WorldState WorldState;
         public List<Action> AvailableActions;
     }
 }
